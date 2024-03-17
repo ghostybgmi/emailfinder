@@ -1,0 +1,16 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-pricing',
+  templateUrl: './pricing.component.html',
+  styleUrls: ['./pricing.component.css']
+})
+export class PricingComponent {
+
+  activeOption: number = 1;
+
+  setActiveOption(option: number): void {
+    this.activeOption = option;
+  }
+
+}

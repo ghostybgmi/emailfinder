@@ -1,0 +1,47 @@
+
+.text-body {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.textbox-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-control {
+  margin-right: 10px;
+  height: 45px;
+  width: 500px;
+}
+
+.tab-group {
+  display: flex;
+}
+
+.mat-tab-label {
+  margin-right: 50px; /* Adjust the value as needed */
+}
+
+
+.test123 {
+  margin-right: 35px;
+}
+
+.icons{
+  font-size: 70px;
+  margin-right: 70px;
+  margin-left: 70px;
+  opacity: 0.6;
+}

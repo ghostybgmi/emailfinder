@@ -1,0 +1,40 @@
+ <app-nav-bar> </app-nav-bar>
+
+
+ <div class="text-body">
+  <div class="grad-circle"></div>
+
+  <div class="text-div">
+    <h3 style="font-size: 3rem; ">Email Finder</h3>
+    <h3 style="font-size: 3.5rem; color: rgb(232, 114, 24);"> Find the verified email address </h3>
+    <h3 style="font-size: 3.5rem;"> of any professional</h3>
+  </div>
+
+  <mat-tab-group class="tab-group" (selectedTabChange)="updateIsShow($event)">
+    <mat-tab label="Find email by URL"></mat-tab>
+    <mat-tab label="Email verifier"></mat-tab>
+    <mat-tab label="Website url"></mat-tab>
+  </mat-tab-group>
+
+
+
+
+  <div class="textbox-input">
+    <input type="text" class="form-control" [placeholder]="isShow ? 'Enter URL' : 'Enter Email'">
+    <button class="btn btn-primary">Find</button>
+  </div>
+
+</div>
+
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+  trusted by leading companies
+  <br> <br>
+  <div class="icons" style="margin-left: 20px;">
+    <i class="fa-brands fa-google icons" ></i>
+    <i class="fa-brands fa-facebook icons" ></i>
+    <i class="fa-brands fa-microsoft icons" ></i>
+    <i class="fa-brands fa-salesforce icons" ></i>
+    <i class="fa-brands fa-amazon icons"></i>
+  </div>
+</div>
+
